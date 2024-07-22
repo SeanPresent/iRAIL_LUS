@@ -1,0 +1,12 @@
+{
+batch_size = 128
+n_epochs = 1000
+num_workers = 4
+patience = 100
+model = timm.create_model('tf_efficientnet_b0', pretrained = True)
+out_dim    = 4
+model.classifier = nn.Linear(model.classifier.in_features, out_dim)
+model.sigmoid = nn.Sigmoid()
+criterion = nn.BCEWithLogitsLoss()
+optimizer = torch.optim.Adam(model.parameters(), lr = 1e-5)
+}
