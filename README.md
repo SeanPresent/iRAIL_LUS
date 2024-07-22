@@ -1,4 +1,4 @@
-# The Project LUS | 폐초음파 연구
+# The Project LUS | Lung Ultrasound
 ## 업데이트 내용 및 자료
 **미팅 및 업데이트:** ```iRAIL-SNU/LungUS/meeting/ 에서 확인``` 가능 <br>
 **미팅 외 자료들 :** 발표자료 및 기타 데이터 [링크](https://drive.google.com/drive/folders/1e69s8RKwfRnDcHjZtiBGJsKwJrl_PKdH?usp=sharing)
