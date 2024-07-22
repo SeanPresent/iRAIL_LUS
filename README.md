@@ -14,7 +14,7 @@
 
 * 1\. **Data**
     * 1.1\. **Labels:** A-line, B-line, Consolidation, Effusion
-    * 1.2\. **Cases:** 3,429 patients [188 existing cases + 3,241 new patients added]
+    * 1.2\. **Cases:** Paper will be uploaded with details...
 * 2\. **Model**
     * 2.1\. **Task:** Multi-label Classification
 
