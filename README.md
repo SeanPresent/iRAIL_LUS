@@ -1,27 +1,24 @@
 # The Project LUS | Lung Ultrasound
-## 업데이트 내용 및 자료
-**미팅 및 업데이트:** ```iRAIL-SNU/LungUS/meeting/ 에서 확인``` 가능 <br>
-**미팅 외 자료들 :** 발표자료 및 기타 데이터 [링크](https://drive.google.com/drive/folders/1e69s8RKwfRnDcHjZtiBGJsKwJrl_PKdH?usp=sharing)
 
-## 프로젝트 소개
-**소개 :** Deep Learning을 이용하여 lung ultrasound finding을 BLUE protocol에 적용한 연구 <br>
-**목적 :** 급성호흡곤란을 일으키는 환자들에게서 원인을 찾기 위해 고안된 BLUE protocol은 90.5% 이상의 높은 진단적 정확도를 보이지만, 초음파 진단의 특성 상```시술자에 따라 해석이 달라질 수 있다는 단점이 있기에 숙련된 검사자와 비슷한 정도의 정확도를 갖출 수 있도록 보조```해주는 모델 연구 
-<p align="center">
-<img src="image/LUS_example.png" width="512">
+## Update Contents and Materials
+**Meetings and Updates:** Accessible at ```iRAIL-SNU/LungUS/meeting/``` <br>
+**Non-meeting Materials:** Presentation materials and other data available [here](https://drive.google.com/drive/folders/1e69s8RKwfRnDcHjZtiBGJsKwJrl_PKdH?usp=sharing)
 
-## 해당 프로젝트 모델 : <br>
-**주제** : Multi-label Classification in Blue Protocol setting. <br>
+## Project Introduction
+**Introduction:** Research applying Deep Learning to lung ultrasound findings using the BLUE protocol <br>
+**Objective:** The BLUE protocol, designed to find the cause in patients with acute respiratory distress, shows a high diagnostic accuracy of over 90.5%. However, due to the nature of ultrasound diagnostics, interpretations can vary depending on the operator. This research aims to develop a model that can assist in achieving an accuracy level similar to that of experienced examiners.
 
-* 1\. **데이터**
-    * 1.1\. **Label :** A-line, B-line, Consolidation, Effusion
-    * 1.2\. **Case :** 3,429명 [기존 188명 + 새로운 환장 3,241명 추가]
-* 2\. **모델**
-    * 2.1\. **Task :** Multi-label Classification
-<p align="center">
-<img src="image/model_example.png" width="512"> <br>
-(eg) Roy, Subhankar et al. “Deep Learning for Classification and Localization of COVID-19 Markers in Point-of-Care Lung Ultrasound.” IEEE Transactions on Medical Imaging 39 (2020): 2676-2687.
-   
-## 참고 문헌
+
+## Project Model: <br>
+**Topic:** Multi-label Classification in the Blue Protocol setting. <br>
+
+* 1\. **Data**
+    * 1.1\. **Labels:** A-line, B-line, Consolidation, Effusion
+    * 1.2\. **Cases:** 3,429 patients [188 existing cases + 3,241 new patients added]
+* 2\. **Model**
+    * 2.1\. **Task:** Multi-label Classification
+
+## Reference
  
 1 "Automated Lung Ultrasound B-line Assessment Using a Deep Learning Algorithm." IEEEonUFFC2020 <br>
 2 "Quantifying lung ultrasound comets with a convolutional neural network: Initial clinical results.“CBM2019 <br>
